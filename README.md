@@ -27,9 +27,11 @@ A simple chat app using Flutter and Firebase.
 ## How To Set Up
 
 1. Add this project to your own Firebase account.
-1. Check the google-services.json and GoogleServices-info.plist file.
+1. For Android: Add your own google-services.json to android -> app folder, and update build.gradle in both android and app.
+1. For iOS: Add your own GoogleServices-info.plist to ios -> Runner folder.
 1. Run the app using either iOS simulator or Android emulator.
 1. If you do not have iOS simulator or Android emulator on your computer, go to your terminal and run `flutter run -d chrome` to see it on Chrome or any other browser you want.
+1. In lib -> shared -> constants, put your own apiKey, appID, messagingSenderId, and projectId.
 
 ## Future plans
 
